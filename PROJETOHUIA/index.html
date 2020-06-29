@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Max Doctor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="C:\Users\Carol\Desktop\PROJETOHUIA\estilo.css" />
+
+</head>
+
+
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 div__logo-style">
+                <img class="logo-empresa" src="C:\Users\Carol\Desktop\PROJETOHUIA\imagens\Logo-Maxi-Doctor.png" alt="Max Doctor">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 div__texto-corrido">
+                <p class="texto-principal">A plataforma de compra direta do seu anestésico tópico</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12 div__errosList-mod">
+                <ul id="listaErros" class="alert-danger">
+
+                </ul>
+            </div>
+        </div>
+
+        <form id="formLogin" class="form-horizontal" method="post">
+            <div class="form-group row">
+                <label for="inputCRM" class="col-xs-2 col-form-label lblCRM__style">CRM</label>
+                <div class="col-xs-10 div__input">
+                    <input type="text" required="required" maxlength="7" name="crm" pattern="[0-9]+$" crm class="form-control-plaintext inputCRM__style" maxlength= "7" id="inputCRM"
+                        placeholder="0000000">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="selectUF" class="col-xs-2 col-form-label lblUF__style">UF</label>
+                <div class="col-xs-10 div__input">
+                    <select class="form-control-plaintext selectUF__style" id="uf" required="required" name="uf">
+                        <option id="0" value="" disabled selected hidden>Selecionar</option>
+                        <option id="AC" value="1">Acre</option>
+                        <option id="AL" value="2">Alagoas</option>
+                        <option id="AP" value="3">Amapá</option>
+                        <option id="AM" value="4">Amazonas</option>
+                        <option id="BA" value="5">Bahia</option>
+                        <option id="CE" value="6">Ceará</option>
+                        <option id="DF" value="7">Distrito Federal</option>
+                        <option id="ES" value="8">Espiríto Santo</option>
+                        <option id="GO" value="9">Goiás</option>
+                        <option id="MA" value="10">Maranhão</option>
+                        <option id="MT" value="11">Mato Grosso</option>
+                        <option id="MS" value="12">Mato Grosso do Sul</option>
+                        <option id="MG" value="13">Minas Gerais</option>
+                        <option id="PA" value="14">Pará</option>
+                        <option id="PB" value="15">Paraíba</option>
+                        <option id="PR" value="16">Paraná</option>
+                        <option id="PE" value="17">Pernambuco</option>
+                        <option id="PI" value="18">Piauí</option>
+                        <option id="RJ" value="19">Rio de Janeiro</option>
+                        <option id="RN" value="20">Rio Grande do Norte</option>
+                        <option id="RS" value="21">Rio Grande do Sul</option>
+                        <option id="RO" value="22">Rondônia</option>
+                        <option id="RR" value="23">Roraima</option>
+                        <option id="SC" value="24">Santa Catarina</option>
+                        <option id="SP" value="25">São Paulo</option>
+                        <option id="SE" value="26">Sergipe</option>
+                        <option id="TO" value="27">Tocantins</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-10 div__styleBTN">
+                    <button id="btnContinuar" 
+                     class="btn btn-purple btn-md btn-block" type="submit">continue</button></a>
+    
+                </div>
+            </div>
+
+        </form>
+
+
+
+        <div class="row">
+            <div class="col-xs-12 div__texto-corrido">
+                <p class="texto-secundario">canal de compra exclusivo para classe médica</p>
+            </div>
+        </div>
+
+        <div class="row div__linhaIcones-mod margin__mod">
+            <div class="col-xs-12 div__styleICONS_1">
+                <div class="col-xs-6 div_icone_style">
+                    <img class="col-xs-12 icone_mod" id="icone1" src="C:\Users\Carol\Desktop\PROJETOHUIA\imagens\Icone-Facilidade-Compra.png"
+                        alt="Facilidade de Compra">
+
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 div__styleICONS_2">
+                <div class="col-xs-6 div_iconeQuantidade_style">
+                    <img id="icone2" class="col-xs-12 icone_mod" src="C:\Users\Carol\Desktop\PROJETOHUIA\imagens\Icone-Quantidade-Nao-Limitada.png"
+                        alt="Quantidade Não Limitada">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row div__linhaIcones-mod2">
+            <div class="col-xs-12 div__styleICONS_1">
+                <div class="col-xs-6 div_iconeFrete_style">
+                    <img id="icone3" class="col-xs-12 icone_mod" src="C:\Users\Carol\Desktop\PROJETOHUIA\imagens\Icone-Frete.png"
+                        alt="Frete Grátis">
+
+                </div>
+            </div>
+
+
+            <div class="col-xs-12 div__styleICONS_3">
+                <div class="col-xs-6 div_icone_style">
+                    <img id="icone4" class="col-xs-12 icone_mod" src="C:\Users\Carol\Desktop\PROJETOHUIA\imagens\Icone-Agilidade.png" alt="Agilidade">
+
+                </div>
+            </div>
+
+            <div class="col-xs-12 div__styleICONS_2">
+                <div class="col-xs-6 ">
+                    <img id="icone5" class="col-xs-12 icone_mod" src="C:\Users\Carol\Desktop\PROJETOHUIA\imagens\Icone-Comodidade.png" alt="Comodidade">
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script type="text/javascript" scr="./valida.js"></script>
+
+</body>
+
+</html>

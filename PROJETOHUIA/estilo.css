@@ -1,0 +1,269 @@
+body{
+    background: radial-gradient(#ffffff, #BFABD0);
+}
+
+.container{
+    background-image: url("imagens/Fundo-Relogio.png");
+    background-repeat: no-repeat;
+    background-size: 460px 440px;
+    position: relative;
+    background-position-x: -130px;
+    background-position-y: -115px;
+}
+
+.div__logo-style, .div__texto-corrido{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-empresa{
+    width: 280px;
+    height: 180px;
+}
+
+.texto-principal, .texto-secundario{
+    font-weight: 700;
+    color: #7E479B;
+    font-size: 1.0rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.texto-secundario{
+    margin-top: 2%;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.form-horizontal{
+    width: auto; 
+    margin: 0 auto;
+}
+
+label{
+    margin-left: auto;
+    font-size: 0.85rem;
+}
+
+.div__input{
+    margin-right: auto;
+    border-bottom: 1px solid #ADA3BE;
+}
+
+
+.lblCRM__style{
+    font-size: 0.75rem;
+    border-bottom: 1px solid #ADA3BE;
+    
+}
+
+.inputCRM__style{
+    padding-left: 5%;
+    width: 250px;
+}
+
+.lblUF__style{
+    font-size: 0.75rem;
+    border-bottom: 1px solid #ADA3BE;
+    width: 27.08px;
+}
+
+.selectUF__style{
+    width: 250px;
+}
+
+.div__styleBTN{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-purple{
+    border-color: #9C83BE;
+    background-color: #9C83BE;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    width: 280px;
+}
+
+.btn-purple:hover{
+    background-color: #9370DB;
+}
+
+.div__linhaIcones-mod, .div__linhaIcones-mod2{
+    margin-top: 5%;
+}
+
+.div__linhaIcones-mod2{
+    margin-bottom: 10%;
+}
+
+.div__styleICONS_1{
+    margin-left: auto;
+    margin-right: 0%;
+    text-align: center;
+    width: 27%;
+}
+
+.div__styleICONS_2{
+    margin-left: 0%;
+    margin-right: auto;
+    text-align: center;
+    width: 27%;
+}
+
+.div__styleICONS_3{
+    text-align: center;
+}
+
+
+.div_iconeQuantidade_style{
+    margin-top: 20%;
+}
+
+.icone_mod{
+    width: 52%;
+}
+
+#icone4{
+    width: 46%;
+}
+
+.lblicone_mod{
+    width: 60%;
+    font-size: 0.75rem;
+}
+
+.div_iconeFrete_style{
+    margin-top: 5%;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    cursor:pointer;
+    display:block;
+    width:8px;
+    color: #333;
+    text-align:center;
+    position:relative;
+}
+   input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+   margin: 0; 
+}
+
+
+.div__errosList-mod{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    padding-inline-end: 30px;
+}
+
+li{
+    font-size: 0.85rem;
+    width: 100%;
+}
+
+#listaErros{
+    border: 1px solid red;
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .container{
+        background-size: 70%;
+    }
+    #icone1{
+        width: 34%;        
+    }
+    #icone2, #icone3, #icone5{
+        width: 38%;        
+    }
+    #icone4{
+        width: 66%;
+    }
+
+    .div_iconeQuantidade_style{
+        margin-top: 15%;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 992px) {
+    .container{
+        background-size: 70%;
+    }
+
+    .logo-empresa{
+        width: auto;
+        height: auto;
+        margin-top: 30%;
+    }
+
+    .margin__mod{
+        margin-top: 10%;
+    }
+
+    #icone1{
+        width: 30%;        
+    }
+    #icone2, #icone3, #icone5{
+        width: 34%;        
+    }
+    #icone4{
+        width: 74%;
+    }
+
+    .div_iconeQuantidade_style{
+        margin-top: 15%;
+    }
+} 
+
+
+@media only screen and (min-width: 1200px) {
+
+    .container{
+        background-size: 50%;
+    }
+
+    .logo-empresa{
+        width: 300px;
+        height: 200px;
+        margin-top: 0%;
+    }
+    .margin__mod{
+        margin-top: 4%;
+    }
+
+    #icone1{
+        width: 25%;        
+    }
+    #icone2, #icone3, #icone5{
+        width: 25%;        
+    }
+    #icone4{
+        width: 65%;
+    }
+    .div_iconeQuantidade_style{
+        margin-top: 12%;
+    }
+    .div_iconeFrete_style{
+        margin-top: 0;
+    }
+
+
+
+
+}
